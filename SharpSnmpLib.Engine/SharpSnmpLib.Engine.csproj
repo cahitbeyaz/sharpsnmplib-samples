@@ -4,11 +4,97 @@
     <RootNamespace>Lextm.SharpSnmpLib</RootNamespace>
     <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT' ">netcoreapp3.1;netcoreapp3.0;netcoreapp2.1;netstandard2.0;net471;xamarin.ios10;monoandroid80</TargetFrameworks>
     <TargetFrameworks Condition=" '$(OS)' != 'Windows_NT' ">netcoreapp3.1;netcoreapp3.0;netcoreapp2.1;netstandard2.0</TargetFrameworks>
-    <PackageId>Lextm.SharpSnmpLib.Engine</PackageId>
+    <PackageId>SharpSnmpLib.Engine</PackageId>
     <Title>#SNMP Library</Title>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Authors>Malcolm Crowe,Lex Li,and other contributors.</Authors>
-    <Description>SNMP engine sample for #SNMP Library.</Description>
+    <Description>SNMP engine sample and some classes for #SNMP Library.
+
+Classes:
+AccessFailureException
+ComposedMembershipProvider
+DefaultTypeResolver
+EngineGroup
+GetBulkMessageHandler
+GetMessageHandler
+GetNextMessageHandler
+GetNextV1MessageHandler
+GetV1MessageHandler
+HandlerMapping
+IAssemblyLoader
+IListenerBinding
+ILogger
+IMembershipProvider
+IMessageHandler
+InformRequestMessageHandler
+InformRequestMessageReceivedEventArgs
+ISnmpContext
+ISnmpObject
+Listener
+ListenerBinding
+MessageHandlerFactory
+MessageReceivedEventArgs
+NormalSnmpContext
+NullMessageHandler
+ObjectStore
+ScalarObject
+SecureSnmpContext
+SetMessageHandler
+SetV1MessageHandler
+SnmpApplication
+SnmpApplicationFactory
+SnmpContextBase
+SnmpContextFactory
+SnmpEngine
+SnmpObjectBase
+TableObject
+TrapV1MessageHandler
+TrapV1MessageReceivedEventArgs
+TrapV2MessageHandler
+TrapV2MessageReceivedEventArgs
+Version1MembershipProvider
+Version2MembershipProvider
+Version3MembershipProvider
+
+IfAdminStatus
+IfDescr
+IfIndex
+IfInDiscards
+IfInErrors
+IfInNUcastPkts
+IfInOctets
+IfInUcastPkts
+IfInUnknownProtos
+IfLastChange
+IfMtu
+IfNumber
+IfOperStatus
+IfOutDiscards
+IfOutErrors
+IfOutNUcastPkts
+IfOutOctets
+IfOutQLen
+IfOutUcastPkts
+IfPhysAddress
+IfSpecific
+IfSpeed
+IfTable
+IfType
+NetworkInterfaceExtensions
+SysContact
+SysDescr
+SysLocation
+SysName
+SysObjectId
+SysORDescr
+SysORID
+SysORIndex
+SysORLastChange
+SysORTable
+SysORUpTime
+SysServices
+SysUpTime
+</Description>
     <Summary>SNMP engine sample for #SNMP Library.</Summary>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
